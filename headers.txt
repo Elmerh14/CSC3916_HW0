@@ -16,3 +16,16 @@ Connection: keep-alive - controls weather the network connection should remain o
 x-served-by: FastAPI - Identifies what software on the server handled the request
 Referrer-Policy: no-referrer-when-downgrade - Specifies how much referrer information the browser shares when navigating to another resource; no-referrer-when-downgrade prevents sending referrer data when moving from HTTPS to HTTP.
 Content-Encoding: gzip - the encoding applied to the response body
+
+Response Headers
+Server: nginx/1.28.1
+Date: Mon, 02 Feb 2026 04:20:01 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: * - specifies which origins are allowed access to this resource in this case any website 
+access-control-allow-method: GET, OPTIONS - specifies which HTTP methods are permited when accesing this resource in this case GET and OPTIONS
+access-control-max-age: 86400 - Specifies how long the browser can cache the result of a cross origin resource sharing preflight request in this case its cached for 86,400 seconds 
+x-ol-stats: "MC 2 0.001 TT 0 0.005" - A custom header used by Open Library to expose internal request performance or usage metrics.
+Referrer-Policy: no-referrer-when-downgrade
+Content-Encoding: gzip
