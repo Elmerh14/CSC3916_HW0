@@ -1,0 +1,18 @@
+Request Headers 
+User-Agent: PostmanRuntime/7.51.0 - Identifies the client making the request
+Accept: */* - Tells the type of response formate the client is willing to receive in this case */* means all type
+Cache-Control: no-cache - Tells how the response and request should be cached in this case no caching 
+Postman-Token: df11f9f5-7041-47ee-bf8d-d9f37ae2a155 - client generated identifier used for request tracking 
+Host: openlibrary.org - indicates the target servers domain name
+Accept-Encoding: gzip, deflate, br - specifies which compression method the client knows how to decode 
+Connection: keep-alive - controls weather the network connection should remain open after the request in this case keep it alive
+
+Response Headers
+Server: nginx/1.28.1 - Identifies the server handling the request 
+Date: Mon, 02 Feb 2026 04:19:49 GMT - Indicates when the response was generated 
+Content-Type: application/json - specifies the formate of the response body
+Transfer-Encoding: chunked - Delivery method of the response body 
+Connection: keep-alive - controls weather the network connection should remain open after the request
+x-served-by: FastAPI - Identifies what software on the server handled the request
+Referrer-Policy: no-referrer-when-downgrade - Specifies how much referrer information the browser shares when navigating to another resource; no-referrer-when-downgrade prevents sending referrer data when moving from HTTPS to HTTP.
+Content-Encoding: gzip - the encoding applied to the response body
